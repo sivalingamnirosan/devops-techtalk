@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /tmp/codedeploy-deployment-staging-area/
+    destination: /var/www/html/index
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
